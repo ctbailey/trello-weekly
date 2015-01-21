@@ -1,0 +1,25 @@
+{
+  "name": "trello_weekly",
+  "version": "0.0.1",
+  "description": "A small project that moves due dates in a Trello list so they fall on the same day in the current week. Run with cron or similar tool to create a set of weekly recurring due dates in Trello.",
+  "main": "trello_weekly.js",
+  "dependencies": {
+    "moment": "^2.9.0",
+    "node-notifier": "^4.0.3",
+    "node-trello": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctbailey/trello-weekly.git"
+  },
+  "author": "C. Thomas Bailey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctbailey/trello-weekly/issues"
+  },
+  "homepage": "https://github.com/ctbailey/trello-weekly"
+}
